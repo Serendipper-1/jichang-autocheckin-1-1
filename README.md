@@ -85,9 +85,7 @@ brew install jq
 #### 克隆仓库
 
 ```bash
-git clone --depth=1 https://github.com/isecret/sspanel-autocheckin.git
-# 因为国内网络克隆速度不是很理想的，选择下面的
-git clone --depth=1 https://hub.fastgit.org/isecret/sspanel-autocheckin.git
+git clone --depth=1 https://github.com/Serendipper-1/jichang-autocheckin-1.git
 ```
 
 #### 修改配置
@@ -217,11 +215,7 @@ PushPlus 推送结果: 成功
 
 - 进入 Actions，手动执行一次工作流。
 
-  ![Github Action Run Workflow](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/github_actions_run_workflow.png)
-
 - 进入 **Fork 后的项目**，点击右上角的 <kbd>star</kbd> 按钮。
-
-  ![Github Star](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/github_star.png)
 
 ### Action 定时任务运行结果只显示推送信息
 
@@ -231,9 +225,9 @@ PushPlus 推送结果: 成功
 
 > 需要`TELEGRAMBOT_TOKEN`和`TELEGRAMBOT_CHATID`一起使用，前者用于调用 bot，后者用于指定推送目标。
 
-| `TELEGRAMBOT_CHATID`获取                                                                                                    | `TELEGRAMBOT_TOKEN`获取                                                                                                   |
+| `TELEGRAMBOT_USERID`获取                                                                                                    | `TELEGRAMBOT_TOKEN`获取                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| ![GET_TELEGRAMBOT_CHATID](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/GET_TELEGRAMBOT_CHATID.png) | ![GET_TELEGRAMBOT_TOKEN](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/GET_TELEGRAMBOT_TOKEN.png) |
+| [GET_TELEGRAMBOT_CHATID](https://www.kejiwanjia.com/jiaocheng/zheteng/5132.html) | [GET_TELEGRAMBOT_TOKEN](https://www.kejiwanjia.com/jiaocheng/zheteng/5132.html) |
 
 ### Fork 之后如何同步原作者的更新内容
 
@@ -249,8 +243,6 @@ PushPlus 推送结果: 成功
    根据自己需求选择，实在不知道怎么选择，就选 `All repositories`。
 
    点击 `install`，完成安装。
-
-   ![Install Pull App](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/install_pull_app.png)
 
    Pull App 可以指定是否保留自己已经修改的内容，分为下面两种方式，如果你不知道他们的区别，就请选择方式二；如果你知道他们的区别，并且懂得如何解决 git 冲突，可根据需求自由选择任一方式。
 
