@@ -227,7 +227,7 @@ PushPlus 推送结果: 成功
 
 | `TELEGRAMBOT_USERID`获取                                                                                                    | `TELEGRAMBOT_TOKEN`获取                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| [GET_TELEGRAMBOT_CHATID](https://www.kejiwanjia.com/jiaocheng/zheteng/5132.html) | [GET_TELEGRAMBOT_TOKEN](https://www.kejiwanjia.com/jiaocheng/zheteng/5132.html) |
+| [GET_TELEGRAMBOT_USERID](https://www.kejiwanjia.com/jiaocheng/zheteng/5132.html) | [GET_TELEGRAMBOT_TOKEN](https://www.kejiwanjia.com/jiaocheng/zheteng/5132.html) |
 
 ### Fork 之后如何同步原作者的更新内容
 
