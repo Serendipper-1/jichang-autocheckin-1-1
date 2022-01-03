@@ -85,7 +85,7 @@ brew install jq
 #### 克隆仓库
 
 ```bash
-git clone --depth=1 https://github.com/Serendipper-1/jichang-autocheckin-1.git
+git clone --depth=1 https://github.com/Serendipper-1/jichang-autocheckin-1-1.git
 ```
 
 #### 修改配置
